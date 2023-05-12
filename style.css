@@ -1,0 +1,99 @@
+
+html {
+
+}
+.leftbox {
+    background-image: url(img/zigzag-lines.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    min-height: 600px;
+    max-height: 606px;
+}
+p {
+    padding-left: 30px;
+    font-size: 1.2rem;
+}
+header {
+    background-color: aliceblue;
+    border: 3px solid #F6F7F8;
+}
+
+
+.sidebar {
+
+
+}
+
+.container {
+    padding-left: 30px;
+}
+
+.speaker-form {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #F6F7F8;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px; */
+    justify-content: space-between;
+    width: 70%;
+    padding: 0px;
+    margin: 0 0 40px 0;
+}
+
+form-row {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-row input[type='text'],.form-row input[type='email'],.form-row select, .form-row input[type='tel'],
+.form-row input[type='password'], .form-row textarea {
+    background-color: #FFFFFF;
+    border: 1px solid #D6D9DC;
+    border-radius: 3px;
+    width: 80%;
+    padding: 7px;
+    font-size: 14px;
+    height: initial;
+}
+
+.form-row label {
+    margin-bottom: 15px;
+}
+
+.form-row input[type='text']:invalid,
+.form-row input[type='email']:invalid,
+.form-row input[type='tel']:invalid {
+    border: 1px solid #D55C5F;
+    color: #D55C5F;
+    box-shadow: none; /* Remove default red glow in Firefox */
+}
+
+.leftform, .rightform {
+    width: 50%;
+}
+button {
+    font-weight: bold;
+    color: white;
+    background-color:  olive;
+    border-radius: 5px;
+    padding: 5px 25px 5px ;
+}
+
+.footbox {
+    padding-left: 30px;
+    height: 100%;
+
+
+}
+footer {
+  height: 225px;
+}
